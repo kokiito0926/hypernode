@@ -3,8 +3,10 @@
 import { argv } from "zx";
 
 import { register } from "node:module";
-// import { pathToFileURL } from "node:url";
+import { pathToFileURL } from "node:url";
 
 register("./hook.js", import.meta.url);
 
-await import(argv._[1]);
+const targetPath = path.resolve(process.cwd(), argv._[1]);
+await import(pathToFileURL(targetPath).href);
+// await import(argv._[1]);
