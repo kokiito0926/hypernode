@@ -21,7 +21,6 @@
 	"dependencies": {
 		"zx": "^8.8.4"
 	},
-	"devDependencies": {},
 	"engines": {
 		"node": ">=24.0.0"
 	}
