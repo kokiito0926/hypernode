@@ -5,6 +5,9 @@
 	"description": "A hypernode project",
 	"keywords": [],
 	"homepage": "https://github.com/kokiito0926/",
+	"bin": {
+		"hypernode": "./import.js"
+	},
 	"bugs": {
 		"url": "https://github.com/kokiito0926/hypernode/issues"
 	},
