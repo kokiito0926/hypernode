@@ -1,0 +1,25 @@
+{
+	"name": "@kokiito0926/hypernode",
+	"version": "0.0.0",
+	"private": false,
+	"description": "A hypernode project",
+	"keywords": [],
+	"homepage": "https://github.com/kokiito0926/",
+	"bugs": {
+		"url": "https://github.com/kokiito0926/hypernode/issues"
+	},
+	"repository": "git+https://github.com/kokiito0926/hypernode.git",
+	"license": "MIT",
+	"author": "Koki Ito <kokiito0926@gmail.com>",
+	"type": "module",
+	"scripts": {
+		"test": "node --test"
+	},
+	"dependencies": {
+		"zx": "^8.8.4"
+	},
+	"devDependencies": {},
+	"engines": {
+		"node": ">=24.0.0"
+	}
+}
