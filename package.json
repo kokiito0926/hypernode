@@ -9,12 +9,15 @@
 		"access": "public"
 	},
 	"bin": {
-		"hypernode": "./import.js"
+		"hypernode": "import.js"
 	},
 	"bugs": {
 		"url": "https://github.com/kokiito0926/hypernode/issues"
 	},
-	"repository": "git+https://github.com/kokiito0926/hypernode.git",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/kokiito0926/hypernode.git"
+	},
 	"license": "MIT",
 	"author": "Koki Ito <kokiito0926@gmail.com>",
 	"type": "module",
