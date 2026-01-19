@@ -1,5 +1,7 @@
 #!/usr/bin/env zx
 
+// >> $ zx ./import.js ./example.js --message "Hello world!"
+
 import { argv } from "zx";
 
 import axios from "https://esm.sh/axios";
