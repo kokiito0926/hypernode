@@ -3,8 +3,15 @@
 	"version": "0.0.1",
 	"private": false,
 	"description": "A hypernode project",
-	"keywords": [],
-	"homepage": "https://github.com/kokiito0926/",
+	"keywords": [
+		"cli",
+		"bash",
+		"shell",
+		"script",
+		"nodejs",
+		"hypernode"
+	],
+	"homepage": "https://github.com/kokiito0926/hypernode#readme",
 	"publishConfig": {
 		"access": "public"
 	},
