@@ -2,12 +2,13 @@
 
 // >> $ zx ./import.js ./example.js --message "Hello world!"
 
-import { argv } from "zx";
+// import { argv } from "zx";
+import { argv } from "https://esm.sh/zx";
 
 import axios from "https://esm.sh/axios";
 import { chunk } from "https://esm.sh/lodash";
 
-console.log("Hello world!");
+// console.log("Hello world!");
 
 console.log(argv);
 console.log(argv?.message);
