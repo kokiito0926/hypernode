@@ -13,7 +13,10 @@ import { chunk } from "https://esm.sh/lodash";
 console.log(argv);
 console.log(argv?.message);
 
-console.log(axios);
+// console.log(axios);
+console.log(axios?.get);
+
 console.log(chunk);
 console.log(chunk([1, 2, 3, 4, 5, 6], 2));
+
 process.exit(0);
