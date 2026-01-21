@@ -21,4 +21,4 @@ $ node ./import.js ./example.js --message "Hello world!"
 
 ## ライセンス
 
-MIT
+[MIT](LICENSE)
