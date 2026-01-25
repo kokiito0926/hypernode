@@ -1,6 +1,6 @@
 {
 	"name": "@kokiito0926/hypernode",
-	"version": "0.0.5",
+	"version": "0.0.6",
 	"private": false,
 	"description": "ハイパーノード（hypernode）を用いると、importにHTTPSを指定することができるようになります。",
 	"keywords": [
