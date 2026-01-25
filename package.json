@@ -2,7 +2,7 @@
 	"name": "@kokiito0926/hypernode",
 	"version": "0.0.5",
 	"private": false,
-	"description": "ハイパーノード（Hyper Node）を用いると、importにHTTPSを指定することができるようになります。",
+	"description": "ハイパーノード（hypernode）を用いると、importにHTTPSを指定することができるようになります。",
 	"keywords": [
 		"cli",
 		"bash",

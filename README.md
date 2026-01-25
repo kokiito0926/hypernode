@@ -1,6 +1,6 @@
-## ハイパーノード（Hyper Node）
+## ハイパーノード（hypernode）
 
-ハイパーノード（Hyper Node）は、Node.jsのカスタムローダーです。  
+ハイパーノード（hypernode）は、Node.jsのカスタムローダーです。  
 HTTPS（[esm.sh](https://esm.sh/)など）で公開されている、ESMのモジュールを直接的にimportをすることができるようになります。  
 [zx](https://github.com/google/zx)と組み合わせたりして、短いスクリプトを書いたりするときに便利かもしれません。
 
