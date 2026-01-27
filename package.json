@@ -16,7 +16,7 @@
 		"access": "public"
 	},
 	"bin": {
-		"hypernode": "import.js"
+		"hypernode": "index.js"
 	},
 	"bugs": {
 		"url": "https://github.com/kokiito0926/hypernode/issues"
