@@ -1,14 +1,10 @@
 #!/usr/bin/env node
 
-// >> $ node ./import.js ./example.js --message "Hello world!"
-
-// import { argv } from "zx";
-import { $, argv, minimist } from "https://esm.sh/zx";
+// >> $ node ./index.js ./example.js --message "Hello world!"
 
 import axios from "https://esm.sh/axios";
 import { chunk } from "https://esm.sh/lodash";
-
-// console.log("Hello world!");
+import { $, argv, minimist } from "https://esm.sh/zx";
 
 console.log($);
 

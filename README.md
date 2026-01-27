@@ -26,12 +26,6 @@ console.log(axios?.get);
 console.log(chunk([1, 2, 3, 4, 5, 6], 2));
 ```
 
-## 未分類
-
-```bash
-$ node ./import.js ./example.js --message "Hello world!"
-```
-
 ## ライセンス
 
 [MIT](LICENSE)
