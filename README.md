@@ -1,8 +1,8 @@
-## ハイパーノード（hypernode）
+# hypernode
 
-ハイパーノード（hypernode）は、Node.jsのカスタムローダーです。  
-HTTPS（[esm.sh](https://esm.sh/)など）で公開されている、ESMのモジュールを直接的にimportをすることができるようになります。  
-[zx](https://github.com/google/zx)と組み合わせたりして、短いスクリプトを書いたりするときに便利かもしれません。
+hypernodeは、Node.jsでHTTPSのモジュールをimportに記述可能なカスタムローダーです。  
+[Deno](https://deno.com/)やウェブブラウザのように、HTTPS（[esm.sh](https://esm.sh/)など）で公開されているモジュールをimportに記述することができるようになります。  
+[zx](https://github.com/google/zx)と組み合わせたりして、短いスクリプトを書いたりするときに便利です。
 
 ## インストール
 
@@ -10,20 +10,31 @@ HTTPS（[esm.sh](https://esm.sh/)など）で公開されている、ESMのモ�
 $ npm install --global @kokiito0926/hypernode
 ```
 
-## 実行方法
+## 使い方
 
-```bash
-$ hypernode ./example.js
-```
-
-## コード
+まずはJavaScriptのファイルを作成します。  
+それから、HTTPSのモジュールをimportに記述します。
 
 ```javascript
 import axios from "https://esm.sh/axios";
 import { chunk } from "https://esm.sh/lodash";
+import { argv, minimist } from "https://esm.sh/zx";
 
-console.log(axios?.get);
-console.log(chunk([1, 2, 3, 4, 5, 6], 2));
+const args = minimist(process.argv.slice(2));
+console.log(args?.message);
+
+const axiosResult = await axios?.get("https://example.com/");
+console.log(axiosResult?.data);
+
+const chunked = chunk([1, 2, 3, 4, 5, 6], 2);
+console.log(chunked);
+```
+
+JavaScriptのファイルを指定して、hypernodeのコマンドを実行します。  
+そうすると、importに記述されたHTTPSのモジュールが自動的に読み込まれます。
+
+```bash
+$ hypernode ./example.js --message "Hello world!"
 ```
 
 ## ライセンス
