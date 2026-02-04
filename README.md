@@ -2,7 +2,7 @@
 
 hypernodeは、Node.jsでHTTPSのモジュールをimportに記述可能なカスタムローダーです。  
 [Deno](https://deno.com/)やウェブブラウザのように、HTTPS（[esm.sh](https://esm.sh/)など）で公開されているモジュールをimportに記述することができるようになります。  
-[zx](https://github.com/google/zx)と組み合わせたりして、短いスクリプトを書いたりするときに便利です。
+[zx](https://github.com/google/zx)と組み合わせたりすれば、短いスクリプトを書きやすくなります。
 
 ## インストール
 
@@ -10,7 +10,7 @@ hypernodeは、Node.jsでHTTPSのモジュールをimportに記述可能なカ�
 $ npm install --global @kokiito0926/hypernode
 ```
 
-## 使い方
+## 使用方法
 
 まずはJavaScriptのファイルを作成します。  
 それから、HTTPSのモジュールをimportに記述します。
