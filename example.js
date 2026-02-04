@@ -15,8 +15,12 @@ const args2 = minimist(process.argv.slice(2));
 console.log(args2);
 console.log(args2?.message);
 
-// console.log(axios);
+console.log(axios);
 console.log(axios?.get);
+
+const axiosResult = await axios?.get("https://example.com/");
+console.log(axiosResult);
+console.log(axiosResult?.data);
 
 console.log(chunk);
 console.log(chunk([1, 2, 3, 4, 5, 6], 2));
