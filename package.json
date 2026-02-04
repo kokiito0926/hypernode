@@ -9,6 +9,7 @@
 		"shell",
 		"script",
 		"nodejs",
+		"loader",
 		"hypernode"
 	],
 	"homepage": "https://github.com/kokiito0926/hypernode#readme",
